@@ -1,17 +1,17 @@
 #chat-messages .fromID- .badge-box i, #chat-messages .badge-box i:hover {
-    -webkit-transform:scale(0.5);
-    -moz-transform:scale(0.5); 
-    -o-transform:scale(0.5);
-    transform:scale(0.5);
+    -webkit-transform:scale(1.5);
+    -moz-transform:scale(1.5); 
+    -o-transform:scale(1.5);
+    transform:scale(1.5);
     transition: 0.5s;
     background-position: initial;
     background-repeat: no-repeat !important;
 }
 #chat-messages .clickable:hover {
-    -webkit-transform:scale(0.5);
-    -moz-transform:scale(0.5); 
-    -o-transform:scale(0.5);
-    transform:scale(0.5);
+    -webkit-transform:scale(1.5);
+    -moz-transform:scale(1.5); 
+    -o-transform:scale(1.5);
+    transform:scale(1.5);
     transition: 0.5s;
 }
 
