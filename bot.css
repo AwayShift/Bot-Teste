@@ -38,15 +38,19 @@
 	background: none !important;
 }
 #chat-messages .fromID- .badge-box i, #chat-messages .badge-box i:hover {
-    width: 75px;
-    height: 75px;
+   -moz-transform:  scale(1.5) !important;
+    -webkit-transform: scale(1.5) !important;
+    -o-transform: scale(1.5) !important;
+    transform: scale(1.5) !important;
     transition: 0.5s;
     background-position: initial !important;
     background-repeat: no-repeat !important;
 }
 #chat-messages .clickable:hover {
-    width: 75px;
-    height: 75px;
+   -moz-transform:  scale(1.5) !important;
+    -webkit-transform: scale(1.5) !important;
+    -o-transform: scale(1.5) !important;
+    transform: scale(1.5) !important;
     transition: 0.5s;
 }
 
