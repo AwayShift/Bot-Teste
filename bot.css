@@ -37,6 +37,26 @@
 .thumb .background {
 	background: none !important;
 }
+#chat-messages .fromID- .badge-box i, #chat-messages .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: ease-in-out;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .clickable:hover {
+    width: 100px;
+    height: 100px;
+    transition: 0.5s;
+}
+
+#chat .message:nth-child(2n+1), #chat .mention:nth-child(2n+1), #chat .skip:nth-child(2n+1), #chat .moderation:nth-child(2n+1), #chat .emote:nth-child(2n+1), #chat .update:nth-child(2n+1), #chat .welcome:nth-child(2n+1) {
+    overflow: hidden;
+}
+
+#chat [data-cid^="5394376-"].emote {
+    overflow: hidden;
+}
 #dj-button {
     opacity: 0.7;
     transition: all .3s ease-in;
