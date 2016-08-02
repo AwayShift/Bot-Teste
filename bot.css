@@ -37,14 +37,14 @@
 .thumb .background {
 	background: none !important;
 }
-.badge-box:hover {
+.bdg .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s;
     background-position: ease-in-out;
     background-repeat: no-repeat !important;
 }
-.badge-box:hover {
+.bdg .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s;
