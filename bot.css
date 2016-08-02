@@ -37,16 +37,16 @@
 .thumb .background {
 	background: none !important;
 }
-#chat-messages .badge-box:hover {
+.badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s;
     background-position: ease-in-out;
     background-repeat: no-repeat !important;
 }
-#chat-messages .badge-box:hover {
-    width: 100px;
-    height: 100px;
+.badge-box:hover {
+    width: 75px;
+    height: 75px;
     transition: 0.5s;
 }
 
