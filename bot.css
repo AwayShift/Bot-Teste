@@ -45,6 +45,23 @@
     opacity: 1;
     transition: all 0.1s;
 }
+#history-button .icon,
+#footer-user .buttons .button.settings .icon
+{
+        -moz-transition:        transform 1s ease-in-out;
+        -webkit-transition:     transform 1s ease-in-out;
+        -o-transition:          transform 1s ease-in-out;
+        transition:             transform 1s ease-in-out;
+}
+
+#history-button .icon:hover,
+#footer-user .buttons .button.settings .icon:hover
+{
+        -moz-transform:         rotate(360deg) !important;
+        -webkit-transform:      rotate(360deg) !important;
+        -o-transform            rotate(360deg) !important;
+        transform:              rotate(360deg) !important;
+}
 #volume .button i {
     opacity: 0.7;
     transition: all .3s ease-in;
