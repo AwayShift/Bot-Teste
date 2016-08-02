@@ -37,14 +37,14 @@
 .thumb .background {
 	background: none !important;
 }
-#chat-messages .fromID- .badge-box i, #chat-messages .badge-box i:hover {
+#chat-messages .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s;
     background-position: ease-in-out;
     background-repeat: no-repeat !important;
 }
-#chat-messages .clickable:hover {
+#chat-messages .badge-box:hover {
     width: 100px;
     height: 100px;
     transition: 0.5s;
