@@ -43,14 +43,14 @@
     -o-transform: scale(1.1,1.1) !important;
     transform: scale(1.1,1.1) !important;
     transition: transform 1s ease-in-out;
-    background-position: initial !important;
-    background-repeat: no-repeat !important;
+   background: url('https://cdn.plug.dj/_/static/images/sheets/badges_small.657f64a56ef35e24bc62d628fb8fbd2ceb316ccb.png');
 }
 #chat-messages .clickable:hover {
    -moz-transform:  scale(1.1,1.1) !important;
     -webkit-transform: scale(1.1,1.1) !important;
     -o-transform: scale(1.1,1.1) !important;
     transform: scale(1.1,1.1) !important;
+   background: url('https://cdn.plug.dj/_/static/images/sheets/badges_small.657f64a56ef35e24bc62d628fb8fbd2ceb316ccb.png');
     transition: transform 1s ease-in-out;
 }
 
